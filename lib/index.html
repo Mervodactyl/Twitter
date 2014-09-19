@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Twitter</title>
-</head>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Twitter</title>
 
-<body>
-  <section class="top-nav-bar">
-    <h2>Home</h2>
-    <h2>Notifications</h2>
-    <h2>Discover</h2>
-    <h2>Me</h2>
-    <img src="./images/twitterLogo.png">
-    <form class="search-bar">
-    	<input type="text" class="twitter-search" placeholder="Search Twitter">
-      <input type="image" src="./images/searchButton.png" alt="Submit"></button>
-      <input type="image" src="./images/directMessages.png" alt="Submit"></button>
-      <input type="image" src="./images/settings.png" alt="Submit"></button>
-    	<input type="image" src="./images/writeATweet.png" alt="Submit"></button>
-    </form>
-  </section>
-</body>
+	  <style>
+		
+		ul li {list-style-type: none; display: inline-block;}
+
+		img[alt="twitter logo"]{float: right;
+			position: relative;
+			top: -40px;
+			left: -50%;}
+		form[class='search-bar'] input{color: red}
+		.search-bar{float: right;}
+		
+
+
+	  </style>
+	</head>
+
+	<body>
+	  <nav class="top-nav-bar">
+	    <ul>
+	    	<li><a href="">Home</a></li>
+	    	<li><a href="">Notifications</a></li>
+	    	<li><a href="">Discover</a></li>
+	    	<li><a href="">Me</a></li>
+	    </ul>
+	    <img alt="twitter logo" src="./images/twitterLogo.png">
+	    <form class="search-bar">
+	    	<input type="text" class="twitter-search" placeholder="Search Twitter">
+	      	<input type="image" src="./images/searchButton.png" alt="Submit">
+	    </form>
+	    <section class="search-bar">
+	      	<input type="image" src="./images/directMessages.png" alt="Submit">
+	      	<input type="image" src="./images/settings.png" alt="Submit">
+	    	<input type="image" src="./images/writeATweet.png" alt="Submit">
+	    </section>
+	  </nav>
+	</body>
 </html>
