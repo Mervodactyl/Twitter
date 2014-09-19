@@ -1,0 +1,31 @@
+
+ul li {list-style-type: none; display: inline-block;}
+
+img[alt="twitter logo"]{float: right;
+	position: relative;
+	top: -50px;
+	left: -50%;}
+form[class='search-bar'] input{color: red}
+
+img[alt="Direct Messages"]{float: right;
+	position: relative;
+	top: -50px;
+	left: -30%;}
+
+img[alt="Settings"]{float: right;
+	position: relative;
+	top: 10px;
+	left: -30%;}
+
+img[alt="Write a Tweet"]{float: right;
+	position: relative;
+	height: 100px;
+	top: -50px;
+	left: -30%;}
+
+.search-bar{float: right;
+
+position: relative;
+	height: 100px;
+	top: -50px;
+	left: -30%;}
